@@ -7,10 +7,10 @@ require("dotenv").config()
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || ""
 const GOERLI_RPC_URL =
     process.env.GOERLI_RPC_URL ||
-    "https://eth-goerli.g.alchemy.com/v2/gAf9j7b_Tfry2E_x7sbiUrwX9NtiCJL8"
+    ""
 const PRIVATE_KEY =
     process.env.PRIVATE_KEY ||
-    "0xb40abe95340d60c7a9dd5919fe67ef246abc1d08cf2142f25b0c298a6cadb8b3"
+    ""
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || ""
 
 module.exports = {
